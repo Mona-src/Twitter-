@@ -1,0 +1,22 @@
+body {
+    background-color: #1E1E1E;
+    color: rgb(250, 250, 250);
+}
+
+.card-body {
+    background-color: #1E1E1E;
+}
+
+.card-body button {
+    color: rgb(250, 250, 250);
+}
+
+#tweet-area {
+    background-color: #1E1E1E;
+    color: rgb(250, 250, 250);
+}
+
+#write-tweet-container {
+    background-color: #1E1E1E;
+    color: rgb(250, 250, 250);
+}

@@ -1,0 +1,42 @@
+body {
+    background-image: url(../images/Search.jpg);
+    background-size: cover;
+    padding-bottom: 10vw;
+}
+@media screen and (max-width: 576px) {
+    #index-container {
+        background-image: url(../images/Search.jpg);
+    }
+    .accueil-link button {
+        background-image: url(../images/Search.jpg);
+    }
+}
+
+@media screen and (min-width: 577px) {
+    #index-container {
+        background-image: url(../images/Search.jpg);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    #index-container {
+        background-image: url(../images/Search.jpg);
+    }
+}
+input[type="submit"]:hover {
+    background-color: #eaa81b;
+    color: #282f44;
+    margin: 0 auto;
+}
+
+
+input[type="text"]{
+    color:black;
+    background-color:#e5e6ea;
+}
+h1{
+    color: #eaa81b;
+    font-size: 21px;
+    font-style: italic;
+    text-align:end;
+}

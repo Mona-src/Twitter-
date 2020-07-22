@@ -1,0 +1,88 @@
+/*
+
+    color:
+
+    dark blue #282f44
+    gold #eaa81b
+
+*/
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+* {
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+a:hover {
+    text-decoration: inherit;
+}
+
+#description-accueil {
+    position: relative;
+}
+
+.accueil-text {
+    color: #282f44;
+    text-align: center;
+    border: inherit;
+    margin-top: 15px;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.accueil-text img {
+    margin-right: 15px;
+    width: 10%;
+}
+
+.accueil-link button {
+    margin-top: 50px;
+    padding: 20px;
+    color: #282f44;
+    font-size: 150%;
+    border: solid 2px white;
+}
+
+#to-form-accueil button:hover {
+    background-color: #ffffae;
+}
+
+.accueil-link button:hover {
+    background-color: #eaa81b;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+#index-container {
+    height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+    #index-container {
+        background-color: #eaa81b;
+    }
+    .accueil-link button {
+        color: #eaa81b;
+        background-color: #282f44;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    #index-container {
+        background: rgb(234, 168, 27);
+        background: linear-gradient(90deg, rgba(234, 168, 27, 1) 50%, rgba(40, 47, 68, 1) 50%);
+    }
+    .accueil-link button {
+        background-color: #eaa81b;
+    }
+}
